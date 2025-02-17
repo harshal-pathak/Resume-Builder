@@ -4,7 +4,7 @@ import re
 from openai import OpenAI
 import os
 
-openai_client = OpenAI(api_key= "riPEV8XBp8rQ0bhuw3gDizqC12Wwr20u",base_url= "https://llm-server.llmhub.t-systems.net/v2")
+openai_client = OpenAI(api_key= "8888",base_url= "8888")
 
 def extract_skills_from_job(job_description, current_skills, max_retries=3, retry_delay=2):
     """
